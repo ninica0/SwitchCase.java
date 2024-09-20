@@ -57,7 +57,7 @@ public class SwitchCase {
 			n1=JOptionPane.showInputDialog("Digite um número: ");
 			dN1= Double.parseDouble(n1);
 			
-			if (dN1%2 == 0) {
+			if (dN1%5 == 0) {
 			JOptionPane.showMessageDialog(null, dN1 + " esse número é divisível por 5");
 		}else {
 			JOptionPane.showMessageDialog(null, dN1 + " esse número não é divisível por 5");
