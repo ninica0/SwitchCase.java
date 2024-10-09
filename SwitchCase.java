@@ -10,7 +10,7 @@ public class SwitchCase {
 		double dN1, dN2, dN3, resultado;
 //		Criação de menu
 		opc = JOptionPane.showInputDialog("1 - Maior número\n" + "2 - Par ou ímpar\n" + "3 - Positivo ou negativo\n" + "4 - Divisível por 5\n" +
-        "5 - Soma de 3 números (+/-/0)\n" + "Digite a opção: ");
+        "5 - Soma de 3 números (+/-/0)\n" + "Digite a opção: " );
 		iOpc = Integer.parseInt(opc);
 		
 //		processamento
