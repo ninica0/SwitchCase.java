@@ -80,6 +80,7 @@ public class SwitchCase {
 				default:
 					JOptionPane.showMessageDialog(null, "Opção inválida");
 					break;
+
 					
 			}
 		}
